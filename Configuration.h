@@ -503,7 +503,7 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.0 }
     #define DEFAULT_Kd_LIST { 114.00, 112.0 }
   #else
-    //flsun Q5 via  M303 E0 S200 C8 HTG
+    //flsun Q5 via  M303 E0 S200 C8 Bastler1971
     #define DEFAULT_Kp 10.43
     #define DEFAULT_Ki 0.59
     #define DEFAULT_Kd 46.78
@@ -953,7 +953,7 @@
  * A Fix-Mounted Probe either doesn't deploy or needs manual deployment.
  *   (e.g., an inductive probe or a nozzle-based probe-switch.)
  */
-#define FIX_MOUNTED_PROBE //HTG Achtung andere Loesung finden
+#define FIX_MOUNTED_PROBE //Bastler1971 Achtung andere Loesung finden
 
 /**
  * Use the nozzle as the probe, as with a conductive
